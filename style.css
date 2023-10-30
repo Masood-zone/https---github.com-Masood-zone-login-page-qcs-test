@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Login Page Background*/
+.background-bottom {
+    background: url('./images/background-image.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}

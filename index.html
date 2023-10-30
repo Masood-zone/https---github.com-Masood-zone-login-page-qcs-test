@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="w-screen h-screen bg-[#E5E5E5] max-[299px]:w-[300px] max-[299px]:h-[700px] max-[299px] background-bottom">
+      <div class="w-[300px] h-[406px] mx-auto pt-16 max-md:pt-5">
+        <h1 class="text-center font-medium text-[48px] text-[#224957] pb-4">
+          QCS Ghana
+        </h1>
+        <p class="text-[16px] text-[#224957] font-base text-center">
+          Log in to access your Dashboard
+        </p>
+        <form class="w-full pt-4 max-[299px]:w-[280px] max-[299px]:mx-auto">
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email"
+            class="w-full my-5 px-3 py-3 text-white bg-[#224957] font-medium text-base rounded-lg"
+          />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            class="w-full my-5 px-3 py-3 text-white bg-[#224957] font-medium text-base rounded-lg"
+          />
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-1">
+              <input type="checkbox" class="bg-[#224957] w-[18px] h-[17px]" />
+              Remember me
+            </div>
+            <span class="font-extralight">Forgot Password?</span>
+          </div>
+          <button class="py-3 px-4 bg-[#20DF7F] text-[#224957] rounded-lg w-full mt-5 shadow-xl">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
